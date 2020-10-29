@@ -4,7 +4,8 @@
 
 //Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
 
-function circleCalculation (radius) {
+function circleCalculation (num) {
 	//your code here
-	return (2*3.14)*radius
+	return (2*3.14)*num
 circleCalculation(10);
+}
