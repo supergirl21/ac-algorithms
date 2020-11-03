@@ -4,8 +4,13 @@
 
 //Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
 
-function circleCalculation (num) {
-	//your code here
-	return (2*3.14)*num
-circleCalculation(10);
+var radius = parseInt(prompt("What is the radius of the cirle?"));
+
+function circleCalculation (radius) {
+  var circumference = (2*Math.PI)*radius;
+  var area =  Math.PI*Math.pow(radius,2);
+  var sentence = ("The area of the circle is " + Math.round(circumference) + " and the perimeter of the circle is  " + Math.round(area) + "."); 
+         
+  console.log (sentence);
 }
+circleCalculation(radius);
