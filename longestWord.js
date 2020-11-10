@@ -20,6 +20,27 @@
 
 
 function findLongestWord(str) {
-  //your code here
+  //split the word
+var splitWord = str.split(" ");
+ //log the words to split
+console.log(splitWord);
+  // split the character in a word in an array
+var char = splitWord.length;
+  // console.log(char);
+  //loop for each word to find the number of characters per word
+var word =0;
+    for (var i=0; i<splitWord.length; i++){
+// var longestWord = 0;
+//compare the splitWord to each other for the longest word
+//create a var for the longest word and set to 0.
+   var longestWord = splitWord[i].length;
+        if (longestWord>word){
+            word = longestWord;
+            }
+// console.log(longestWord);
 }
+console.log(word);
+}
+findLongestWord("Google do a barrel roll");
+findLongestWord("May the force be with you");
 
