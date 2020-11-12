@@ -34,7 +34,10 @@ console.log(result) // "ghimmnorstyy"
 **/
 
 function alphabetSoup(str) {
-	
+
+		//.split() -add STRING to split here
+
+		//.split() - the STRING
 	  var mysplit = str.split('')
 	  console.log(mysplit);
 	  
@@ -48,8 +51,6 @@ function alphabetSoup(str) {
 	  var mytrim = myjoin.trim()
 		console.log(mytrim);
 
-
-	
 }
 alphabetSoup("hello");
 alphabetSoup("");
