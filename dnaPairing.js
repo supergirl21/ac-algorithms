@@ -12,6 +12,8 @@
 
 function pairElement(str) {
   //your code here
+
+  // test code
 }
 
 pairElement("GCG");
